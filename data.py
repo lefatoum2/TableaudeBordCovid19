@@ -2,7 +2,7 @@ import pandas as pd
 
 def import_dataset():
 
-    dataset = pd.read_csv('C:/Users/utilisateur/Documents/microsoft_ia/Devoirs/Un_tableau_de_bord_sur_le_Covid/donnees-hospitalieres-covid19-2021-01-21-19h03.csv',sep = ';')
+    dataset = pd.read_csv('data/donnees-hospitalieres-covid19-2021-01-21-19h03.csv',sep = ';')
     return dataset
 
 def traitement_dataset():
